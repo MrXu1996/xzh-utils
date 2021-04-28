@@ -1,0 +1,21 @@
+{
+	"name": "xzh-utils",
+	"version": "1.0.0",
+	"author": "xzh",
+	"description": "自定义工具函数库",
+	"keywords": [
+		"utils",
+		"array",
+		"object",
+		"function",
+		"string",
+		"axios",
+		"promise"
+	],
+	"main": "dist/xzh-utils.js",
+	"scripts": {
+	    "build:watch": "webpack --watch",
+	    "build": "webpack"
+	 },
+	"license": "ISC"
+}

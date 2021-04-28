@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+
+	</head>
+	<body>
+		<script src="../dist/xzh-utils.js"></script>
+		<script>
+			const {myPromise} = XUtils
+			let p1 = myPromise.resolve('111')
+			let p2 = myPromise.resolve('no')
+			let p3 = myPromise.resolve('333')
+			let result = myPromise.race([p1,p2,p3])
+			console.log(result);
+		</script>
+	</body>
+</html>
